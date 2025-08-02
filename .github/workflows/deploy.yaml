@@ -1,4 +1,4 @@
-name: CI/CD for Shubham Pokhrel
+name: CI/CD for demo-web deployment
 
 on:
   push:
@@ -20,4 +20,4 @@ jobs:
           aws-region: us-east-1
 
       - name: Deploy Static Site to S3 Bucket
-        run: aws s3 sync . s3://www.s3.shubhampokhrel.com.np --delete
+        run: aws s3 sync . s3://s3.aadarshakhadka --delete
