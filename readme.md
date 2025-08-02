@@ -1,8 +1,6 @@
-# Read about S3
-https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html#S3Features
+# [Read about S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html#S3Features)
 
-# Document
-https://docs.google.com/document/d/1lBdoNP9MViLQNIcjZOwYEQ9qHeu1osvc/edit?usp=sharing&ouid=100535802890695018069&rtpof=true&sd=true
+## [Document](https://docs.google.com/document/d/1lBdoNP9MViLQNIcjZOwYEQ9qHeu1osvc/edit?usp=sharing&ouid=100535802890695018069&rtpof=true&sd=true)
 
 
 # Bucket Policy for S3
