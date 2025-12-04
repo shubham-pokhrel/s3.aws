@@ -3,26 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AWS Cloud Club Nepal</title>
+    <title>Cloud Decode | AWS Learning Event</title>
     <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
   </head>
 
   <body>
     <!-- navbar -->
     <header>
       <nav>
-        <h1><a href="#AWS Cloud Club Nepal" style="text-decoration: none">AWS Cloud Club Nepal</a></h1>
+        <h1><a href="#hero_section" style="text-decoration: none">
+          <span class="aws-logo">☁️</span> Cloud Decode
+        </a></h1>
+        <button class="mobile-menu-toggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
         <ul class="nav-links">
-          <li><a href="#about-us">About Us</a></li>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#contact-us">Contact</a></li>
+          <li><a href="#about-us">About</a></li>
+          <li><a href="#sessions">Sessions</a></li>
+          <li><a href="#speakers">Speakers</a></li>
+          <li><a href="#register">Register</a></li>
         </ul>
         <ul class="auth-links">
           <li>
-            <a href="#download"><button>Download Now</button></a>
+            <a href="#register"><button>Join Event</button></a>
           </li>
         </ul>
-        
       </nav>
     </header>
 
@@ -35,150 +43,278 @@
     <main>
       <!-- Hero Section -->
       <section class="hero_section" id="hero_section">
-        <div class="hero-text">
-          <h1 style="font-size: 48px">
-            Welcome to <span class="header_green_text">AWS Cloud Club Nepal</span>
-          </h1>
-          <p>Improve your business efficiently<br />with a powerful CRM</p>
-          <a href="#download" class="explore-btn">Download</a>
-        </div>
-        <div class="hero-image">
-          <img
-            src="https://miro.medium.com/v2/resize:fit:1400/1*rQ3d_dKG7V2JhX8SrUjs6g.png"
-            alt="CRM Dashboard"
-          />
+        <div class="hero-container">
+          <div class="hero-text">
+            <p class="event-badge">
+              <i class="fab fa-aws"></i> AWS Learning Series
+            </p>
+            <h1>
+              <span class="header_green_text">Cloud</span> Decode
+            </h1>
+            <p class="hero-subtitle">
+              Your gateway to mastering AWS Cloud Services
+            </p>
+            <p class="hero-description">
+              Join us for an immersive learning experience covering S3, EC2, Lambda, VPC, IAM, RDS, and CI/CD with GitHub Actions
+            </p>
+            <div class="hero-cta">
+              <a href="#register" class="explore-btn primary">
+                <i class="fas fa-rocket"></i> Register Now
+              </a>
+              <a href="#sessions" class="explore-btn secondary">
+                <i class="fas fa-calendar-alt"></i> View Sessions
+              </a>
+            </div>
+            <div class="event-stats">
+              <div class="stat">
+                <span class="stat-number">3</span>
+                <span class="stat-label">Sessions</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">2</span>
+                <span class="stat-label">Speakers</span>
+              </div>
+              <div class="stat">
+                <span class="stat-number">7+</span>
+                <span class="stat-label">AWS Services</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-image">
+            <div class="aws-services-grid">
+              <div class="service-icon"><i class="fas fa-cloud"></i><span>S3</span></div>
+              <div class="service-icon"><i class="fas fa-server"></i><span>EC2</span></div>
+              <div class="service-icon"><i class="fas fa-bolt"></i><span>Lambda</span></div>
+              <div class="service-icon"><i class="fas fa-network-wired"></i><span>VPC</span></div>
+              <div class="service-icon"><i class="fas fa-shield-alt"></i><span>IAM</span></div>
+              <div class="service-icon"><i class="fas fa-database"></i><span>RDS</span></div>
+            </div>
+          </div>
         </div>
       </section>
 
-      <!-- About Us section  -->
+      <!-- About Section -->
       <section class="aboutus" id="about-us">
-        <h1 style="font-size: 48px">About Us</h1>
-        <p class="aboutus-text">
-          AWS Cloud Club Nepal CRM is a customer relationship management platform built to
-          help businesses of all sizes streamline their sales, marketing, and
-          support operations. With a focus on simplicity, efficiency, and
-          intelligent automation, AWS Cloud Club Nepal empowers teams to build lasting
-          customer relationships and drive business growth.
-        </p>
-        <!-- <button class="learn-more-btn">Learn More</button> -->
-      </section>
-
-      <!-- features section -->
-      <section class="features" id="features">
-        <h2 style="font-size: 48px">Features</h2>
-
-        <div class="features-content">
-          <div>
-            <div class="feature-list">
-              <div class="divider"></div>
-              <p>Email Marketing</p>
-            </div>
-
-            <div class="feature-list">
-              <div class="divider"></div>
-              <p>Task-Oriented Teams</p>
-            </div>
-
-            <div class="feature-list">
-              <div class="divider"></div>
-              <p>Contact Managers</p>
-            </div>
+        <div class="about-container">
+          <div class="about-header">
+            <p class="section-badge"><i class="fas fa-info-circle"></i> About the Event</p>
+            <h1>What is Cloud Decode?</h1>
           </div>
-          <div class="image_border">
-            <img
-              src="https://images.livemint.com/img/2024/07/19/600x338/amazon_sale_laptop_1721380009432_1721380022033.png"
-            />
+          <p class="aboutus-text">
+            Cloud Decode is a hands-on AWS learning event designed for aspiring cloud practitioners. 
+            Whether you're a complete beginner or looking to deepen your cloud knowledge, 
+            this event will guide you through essential AWS services with practical demos 
+            and real-world implementations. Learn from experienced practitioners and 
+            kickstart your cloud journey!
+          </p>
+          <div class="about-features">
+            <div class="about-feature">
+              <i class="fas fa-laptop-code"></i>
+              <h3>Hands-on Learning</h3>
+              <p>Demo-heavy sessions with real AWS console walkthroughs</p>
+            </div>
+            <div class="about-feature">
+              <i class="fas fa-users"></i>
+              <h3>Expert Speakers</h3>
+              <p>Learn from cloud practitioners with real-world experience</p>
+            </div>
+            <div class="about-feature">
+              <i class="fas fa-certificate"></i>
+              <h3>Free Entry</h3>
+              <p>Open for all skill levels - beginners to intermediate</p>
+            </div>
           </div>
         </div>
       </section>
 
-      <!-- Download Now Section -->
-      <section class="download" id="download">
-        <h2>Download Now</h2>
-        <p class="download-p">
-          Get started with AWS Cloud Club Nepal CRM today and transform your business!
-        </p>
-        <div class="download-section">
-          <!-- download Card -->
-          <div class="download-card">
-            <div class="card-logo">
-              <img
-                src="assets/google_icon.png"
-                alt="Google Icon"
-              />
-            </div>
-            <div class="card-content">
-              <p class="card-content-p">Simplify your day with AWS Cloud Club Nepal</p>
-              <h1 style="font-size: 30px; margin-bottom: 20px">
-                Download AWS Cloud Club Nepal
-              </h1>
-              <p style="margin-bottom: 20px">Available for Android</p>
-            </div>
-
-            <hr />
-            <button>Download for Android</button>
+      <!-- Sessions Section -->
+      <section class="sessions" id="sessions">
+        <div class="container-narrow">
+          <div class="section-header">
+            <p class="section-badge"><i class="fas fa-calendar-check"></i> Event Schedule</p>
+            <h2>Learning Sessions</h2>
+            <p class="section-subtitle">Three power-packed sessions at 7:30 PM - 8:30 PM</p>
           </div>
-          <div class="download-card">
-            <div class="card-logo">
-              <img
-                src="assets/google_icon.png"
-                alt="Google Icon"
-              />
-            </div>
-            <div class="card-content">
-              <p class="card-content-p">Simplify your day with AWS Cloud Club Nepal</p>
-              <h1 style="font-size: 30px; margin-bottom: 20px">
-                Download AWS Cloud Club Nepal
-              </h1>
-              <p style="margin-bottom: 20px">Available for iOS</p>
-            </div>
 
-            <hr />
-            <button>Download For iOS</button>
-          </div>
-          <!-- download card opt -->
-          <div class="download-card-opt">
-            <div class="card-logo-opt">
-              <img
-                src="assets/playstore_icon.png"
-                alt="Playstore Icon"
-              />
-            </div>
-            <div class="card-content">
-              <p class="card-content-p">Simplify your day with AWS Cloud Club Nepal</p>
-              <h1 style="font-size: 40px; margin-bottom: 20px">
-                Download AWS Cloud Club Nepal
-              </h1>
-              <p style="margin-bottom: 20px">
-                Available for Mac, iOS, and Android
+          <div class="sessions-timeline">
+          <!-- Session 1 -->
+          <div class="session-card">
+            <div class="session-number">01</div>
+            <div class="session-content">
+              <div class="session-header">
+                <span class="session-badge">Fundamentals</span>
+                <span class="session-time"><i class="fas fa-clock"></i> 7:30 PM - 8:30 PM</span>
+              </div>
+              <h3>Introduction to Cloud + Core AWS Services</h3>
+              <p class="session-description">
+                Start your cloud journey with the fundamentals. This session covers cloud computing basics 
+                and dives into essential AWS services that every cloud practitioner needs to know.
               </p>
-            </div>
-            <hr />
-            <div class="dropdown-button">
-              <div class="dropdown" id="dropdown">
-                <div class="dropdown-select" id="dropdownSelect">
-                  AWS Cloud Club Nepal For Android ▾
-                </div>
-                <div class="dropdown-options" id="dropdownOptions">
-                  <div>AWS Cloud Club Nepal For Android</div>
-                  <div>AWS Cloud Club Nepal For iOS</div>
+              <div class="session-topics">
+                <span class="topic-tag"><i class="fas fa-cloud"></i> Cloud Intro</span>
+                <span class="topic-tag"><i class="fas fa-bucket"></i> S3</span>
+                <span class="topic-tag"><i class="fas fa-network-wired"></i> VPC</span>
+                <span class="topic-tag"><i class="fas fa-shield-alt"></i> IAM</span>
+                <span class="topic-tag"><i class="fas fa-bolt"></i> Lambda</span>
+              </div>
+              <div class="session-speaker">
+                <div class="speaker-mini">
+                  <img src="assets/shubham.png" alt="Shubham Pokhrel" class="speaker-avatar-mini" />
+                  <span>Shubham Pokhrel</span>
                 </div>
               </div>
-              <button class="download-section-button" onclick="">Download Now</button>
             </div>
+          </div>
+
+          <!-- Session 2 -->
+          <div class="session-card">
+            <div class="session-number">02</div>
+            <div class="session-content">
+              <div class="session-header">
+                <span class="session-badge demo">Live Demo</span>
+                <span class="session-time"><i class="fas fa-clock"></i> 7:30 PM - 8:30 PM</span>
+              </div>
+              <h3>EC2, VPC & RDS Deep Dive</h3>
+              <p class="session-description">
+                Get your hands dirty with practical demonstrations. Learn to launch EC2 instances, 
+                configure VPCs, and set up RDS databases with live AWS console walkthroughs.
+              </p>
+              <div class="session-topics">
+                <span class="topic-tag"><i class="fas fa-server"></i> EC2</span>
+                <span class="topic-tag"><i class="fas fa-network-wired"></i> VPC</span>
+                <span class="topic-tag"><i class="fas fa-database"></i> RDS</span>
+                <span class="topic-tag highlight"><i class="fas fa-play-circle"></i> Live Demo</span>
+              </div>
+              <div class="session-speaker">
+                <div class="speaker-mini">
+                  <img src="assets/rishikesh.webp" alt="Rishikesh Gautam" class="speaker-avatar-mini" />
+                  <span>Rishikesh Gautam</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Session 3 -->
+          <div class="session-card">
+            <div class="session-number">03</div>
+            <div class="session-content">
+              <div class="session-header">
+                <span class="session-badge demo">Live Demo</span>
+                <span class="session-time"><i class="fas fa-clock"></i> 7:30 PM - 8:30 PM</span>
+              </div>
+              <h3>CI/CD Implementation with GitHub Actions</h3>
+              <p class="session-description">
+                Learn to automate your deployment workflows. This session covers CI/CD fundamentals 
+                and walks through implementing automated pipelines using GitHub Actions for AWS deployments.
+              </p>
+              <div class="session-topics">
+                <span class="topic-tag"><i class="fab fa-github"></i> GitHub Actions</span>
+                <span class="topic-tag"><i class="fas fa-code-branch"></i> CI/CD</span>
+                <span class="topic-tag"><i class="fas fa-rocket"></i> Deployment</span>
+                <span class="topic-tag"><i class="fas fa-cogs"></i> Automation</span>
+                <span class="topic-tag highlight"><i class="fas fa-play-circle"></i> Live Demo</span>
+              </div>
+              <div class="session-speaker">
+                <div class="speaker-mini">
+                  <img src="assets/shubham.png" alt="Shubham Pokhrel" class="speaker-avatar-mini" />
+                  <span>Shubham Pokhrel</span>
+                </div>
+              </div>
+            </div>
+          </div>
           </div>
         </div>
       </section>
 
-      <!-- Contact us google form -->
+      <!-- Speakers Section -->
+      <section class="speakers" id="speakers">
+        <div class="container-narrow">
+          <div class="section-header">
+            <p class="section-badge"><i class="fas fa-microphone-alt"></i> Meet Our Speakers</p>
+            <h2>Learn from the Experts</h2>
+            <p class="section-subtitle">Experienced cloud practitioners sharing their knowledge</p>
+          </div>
+
+          <div class="speakers-grid">
+          <!-- Speaker 1 -->
+          <div class="speaker-card">
+            <div class="speaker-image">
+              <img src="assets/shubham.png" alt="Shubham Pokhrel" class="speaker-photo" />
+              <div class="speaker-social">
+                <a href="https://www.linkedin.com/in/shubham-pokhrel/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://instagram.com/_p_shubham_/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/shubham-pokhrel" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+            <div class="speaker-info">
+              <h3>Shubham Pokhrel</h3>
+              <p class="speaker-title">DevOps Engineer</p>
+              <div class="speaker-sessions">
+                <span><i class="fas fa-presentation"></i> Session 1 & 3</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Speaker 2 -->
+          <div class="speaker-card">
+            <div class="speaker-image">
+              <img src="assets/rishikesh.webp" alt="Rishikesh Gautam" class="speaker-photo" />
+              <div class="speaker-social">
+                <a href="https://www.linkedin.com/in/rishikeshgautam" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://twitter.com/rishikeshshares" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://github.com/rishicares" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+            <div class="speaker-info">
+              <h3>Rishikesh Gautam</h3>
+              <p class="speaker-title">DevOps Engineer</p>
+              <div class="speaker-sessions">
+                <span><i class="fas fa-presentation"></i> Session 2</span>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Registration Section -->
+      <section class="register" id="register">
+        <div class="register-container">
+          <div class="register-content">
+            <p class="section-badge"><i class="fas fa-ticket-alt"></i> Free Registration</p>
+            <h2>Join Cloud Decode</h2>
+            <p class="register-subtitle">
+              Secure your spot and start your AWS journey with us. All sessions are completely free!
+            </p>
+            <ul class="register-benefits">
+              <li><i class="fas fa-check-circle"></i> Access to all 3 sessions</li>
+              <li><i class="fas fa-check-circle"></i> Live demos and walkthroughs</li>
+              <li><i class="fas fa-check-circle"></i> Q&A with speakers</li>
+              <li><i class="fas fa-check-circle"></i> Resource materials</li>
+              <li><i class="fas fa-check-circle"></i> Certificate of participation</li>
+            </ul>
+            <a href="#" class="register-btn">
+              <i class="fas fa-user-plus"></i> Register for Free
+            </a>
+            <p class="register-note">
+              <i class="fas fa-info-circle"></i> Limited seats available. Register early!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
       <section class="contact_us" id="contact-us">
         <div class="contact-us-content">
-          <h1 id="contactus" style="font-size: 48px; margin-bottom: 10px;">Contact Us</h1>
+          <p class="section-badge"><i class="fas fa-envelope"></i> Get in Touch</p>
+          <h1>Have Questions?</h1>
           <p class="download-p">
-            Let's illuminate the path for the connections
+            Reach out to us for any queries about Cloud Decode
           </p>
-          <div>
-            <a href="https://amatyalabs.com/" class="contact-email">AWS Cloud Club Nepal@AWS Cloud Club Nepal.com</a>
+          <div class="contact-methods">
+            <a href="mailto:contact@shubhampokhrel.com.np" class="contact-email">
+              <i class="fas fa-envelope"></i> contact@shubhampokhrel.com.np
+            </a>
           </div>
         </div>
       </section>
@@ -188,34 +324,41 @@
     <footer>
       <div class="footer">
         <div class="footer-left">
-          <h1>AWS Cloud Club Nepal</h1>
-          <p>Transforming Data Into Meaningful Connections.</p>
+          <h1><span class="aws-logo">☁️</span> Cloud Decode</h1>
+          <p>Your Gateway to AWS Cloud Services</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Discord"><i class="fab fa-discord"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
         </div>
-        <div class="footer-links">
-          <div class="column">
-            <h2>AWS Cloud Club Nepal</h2>
-            <a href="#hero_section">Home</a>
-            <a href="#aboutus">About Us</a>
-            <a href="#contact">Contact</a>
-            <a href="#download">Download Now</a>
-          </div>
-          <div class="column">
-            <h2 style="visibility: hidden">AWS Cloud Club Nepal</h2>
-            <a href="#">Home</a>
-            <a href="#">About Us</a>
-            <a href="#">Contact</a>
-            <a href="#">Download Now</a>
-          </div>
-          <div class="column">
-            <h2 style="visibility: hidden">AWS Cloud Club Nepal</h2>
-            <a href="#">Home</a>
-            <a href="#">About Us</a>
-            <a href="#">Contact</a>
-            <a href="#">Download Now</a>
-          </div>
+        <div class="column">
+          <h2>Event</h2>
+          <a href="#hero_section">Home</a>
+          <a href="#about-us">About</a>
+          <a href="#sessions">Sessions</a>
+          <a href="#speakers">Speakers</a>
+        </div>
+        <div class="column">
+          <h2>Resources</h2>
+          <a href="https://aws.amazon.com" target="_blank">AWS Console</a>
+          <a href="https://docs.aws.amazon.com" target="_blank">Documentation</a>
+          <a href="https://aws.amazon.com/free" target="_blank">Free Tier</a>
+          <a href="https://aws.amazon.com/training" target="_blank">Training</a>
+        </div>
+        <div class="column">
+          <h2>Quick Links</h2>
+          <a href="#register">Register</a>
+          <a href="#contact-us">Contact</a>
+          <a href="#">Code of Conduct</a>
+          <a href="#">FAQ</a>
         </div>
       </div>
-      <div class="reserved">2024 AWS Cloud Club Nepal &copy; | All rights reserved.</div>
+      <div class="reserved">
+        <p>© 2025 Cloud Decode | All rights reserved.</p>
+        <p class="aws-disclaimer">AWS and Amazon Web Services are trademarks of Amazon.com, Inc.</p>
+      </div>
     </footer>
     <script src="js/index.js"></script>
   </body>
